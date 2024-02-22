@@ -35,7 +35,7 @@ function eat(){
 // console.log(food); half-chicken
 
 // 5
-
+mean();
 console.log(food);
 var mean = function() {
     food = "chicken";
@@ -43,7 +43,7 @@ var mean = function() {
     var food = "fish";
     console.log(food);
 }
-console.log(food);mean();
+console.log(food);
 // mean(); TypeError: mean is not a function
 
 
